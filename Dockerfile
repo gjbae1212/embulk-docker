@@ -4,7 +4,7 @@ WORKDIR /root
 
 RUN apk update
 
-RUN apk add curl bash libc6-compat
+RUN apk add curl bash libc6-compat gettext
 
 # Required java8(embulk of v0.9 series)
 ENV EMBULK_VERSION 0.9.17
